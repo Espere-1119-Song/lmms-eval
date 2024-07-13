@@ -1,0 +1,7 @@
+- model: llava
+  model_args: pretrained=liuhaotian/llava-v1.5-7b
+  task: coco_caption2017 
+  batch_size: 1
+  log_samples: false
+  log_samples_suffix: coco
+  output_path: "./logs/"

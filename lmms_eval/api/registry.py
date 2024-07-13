@@ -28,6 +28,7 @@ def get_model(model_name):
     try:
         return MODEL_REGISTRY[model_name]
     except KeyError:
+        import pdb;pdb.set_trace()
         raise ValueError(f"Attempted to load model '{model_name}', but no model for this name found! Supported model names: {', '.join(MODEL_REGISTRY.keys())}")
 
 

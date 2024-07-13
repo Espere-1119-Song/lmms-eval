@@ -1,0 +1,4 @@
+group : sharegpt4video
+task:
+- sharegpt4video_test
+- sharegpt4video_small

@@ -769,14 +769,30 @@ class ConfigurableTask(Task):
                 return
 
             if "video" in dataset_kwargs and dataset_kwargs["video"]:
-                hf_home = os.getenv("HF_HOME", "~/.cache/huggingface/")
+                hf_home = os.getenv("HF_HOME", "/data/wenhao/.cache/huggingface/")
                 cache_dir = dataset_kwargs["cache_dir"]
                 cache_dir = os.path.join(hf_home, cache_dir)
                 accelerator = Accelerator()
                 if accelerator.is_main_process:
                     force_download = dataset_kwargs.get("force_download", False)
                     force_unzip = dataset_kwargs.get("force_unzip", False)
-                    cache_path = snapshot_download(repo_id=self.DATASET_PATH, repo_type="dataset", force_download=force_download, etag_timeout=60)
+                    if os.path.exists(self.DATASET_PATH):
+                        cache_path = self.DATASET_PATH
+                    else:
+                        cache_path = snapshot_download(repo_id=self.DATASET_PATH, repo_type="dataset", force_download=force_download, etag_timeout=60)
+                    # if 'ShareGPT4Video' in self.DATASET_NAME:
+                    #     instruction_data_path = os.path.join(cache_path, 'instruction_data')
+                    #     zip_files = []
+                    #     tar_files = []
+                    #     for root, dirs, files in os.walk(cache_path):
+                    #         if instruction_data_path in root:
+                    #             continue
+                    #         for file in files:
+                    #             if file.endswith('.zip'):
+                    #                 zip_files.append(os.path.join(root, file))
+                    #             if file.endswith('.tar'):
+                    #                 tar_files.append(os.path.join(root, file))
+                    # else:
                     zip_files = glob(os.path.join(cache_path, "**/*.zip"), recursive=True)
                     tar_files = glob(os.path.join(cache_path, "**/*.tar*"), recursive=True)
 
@@ -849,7 +865,6 @@ class ConfigurableTask(Task):
 
             if "local_files_only" in dataset_kwargs:
                 dataset_kwargs.pop("local_files_only")
-
         self.dataset = datasets.load_dataset(
             path=self.DATASET_PATH,
             name=self.DATASET_NAME,
@@ -857,6 +872,7 @@ class ConfigurableTask(Task):
             download_config=download_config,
             **dataset_kwargs if dataset_kwargs is not None else {},
         )
+
         self.dataset_no_image = datasets.load_dataset(
             path=self.DATASET_PATH,
             name=self.DATASET_NAME,

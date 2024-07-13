@@ -26,7 +26,7 @@ try:
 except ImportError:
     eval_logger.debug("LLaVA-Video is not installed. Please install LLaVA-Video to use this model.")
 
-from llavavid.model.language_model.llava_qwen import LlavaQwenConfig
+from llava.model.language_model.llava_qwen import LlavaQwenConfig
 from llavavid.model.language_model.llava_llama import LlavaConfig
 
 AutoConfig.register("llava_qwen", LlavaQwenConfig)
@@ -399,6 +399,7 @@ class LlavaVid(lmms):
                 # output_ids = model.generate(inputs=input_ids, images=video, attention_mask=attention_masks, modalities="video", do_sample=True, temperature=0.2, use_cache=True, stopping_criteria=[stopping_criteria])
 
             outputs = self.tokenizer.batch_decode(output_ids, skip_special_tokens=True)[0].strip()
+            print(outputs)
             res.append(outputs)
             pbar.update(1)
         return res

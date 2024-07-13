@@ -1,0 +1,417 @@
+Job started at: Tue Jul  2 00:11:46 UTC 2024
+The following values were not passed to `accelerate launch` and had defaults used instead:
+		More than one GPU was found, enabling multi-GPU training.
+		If this was unintended please pass in `--num_processes=1`.
+	`--num_machines` was set to a value of `1`
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2024-07-02 00:12:42.424 | WARNING  | lmms_eval.models.claude:<module>:29 - Error importing claude: No module named 'anthropic'
+2024-07-02 00:12:42.424 | WARNING  | lmms_eval.models.claude:<module>:29 - Error importing claude: No module named 'anthropic'
+2024-07-02 00:12:42.424 | WARNING  | lmms_eval.models.claude:<module>:29 - Error importing claude: No module named 'anthropic'
+2024-07-02 00:12:42.424 | WARNING  | lmms_eval.models.claude:<module>:29 - Error importing claude: No module named 'anthropic'
+2024-07-02 00:12:42.424 | WARNING  | lmms_eval.models.claude:<module>:29 - Error importing claude: No module named 'anthropic'
+2024-07-02 00:12:42.424 | WARNING  | lmms_eval.models.claude:<module>:29 - Error importing claude: No module named 'anthropic'
+2024-07-02 00:12:42.424 | WARNING  | lmms_eval.models.claude:<module>:29 - Error importing claude: No module named 'anthropic'
+2024-07-02 00:12:42.424 | WARNING  | lmms_eval.models.claude:<module>:29 - Error importing claude: No module named 'anthropic'
+2024-07-02 00:12:46.573 | WARNING  | lmms_eval.models.reka:<module>:30 - Error importing reka: No module named 'reka'
+2024-07-02 00:12:46.573 | WARNING  | lmms_eval.models.reka:<module>:30 - Error importing reka: No module named 'reka'
+2024-07-02 00:12:46.573 | WARNING  | lmms_eval.models.reka:<module>:30 - Error importing reka: No module named 'reka'
+2024-07-02 00:12:46.573 | WARNING  | lmms_eval.models.reka:<module>:30 - Error importing reka: No module named 'reka'
+2024-07-02 00:12:46.573 | WARNING  | lmms_eval.models.reka:<module>:30 - Error importing reka: No module named 'reka'
+2024-07-02 00:12:46.573 | WARNING  | lmms_eval.models.reka:<module>:30 - Error importing reka: No module named 'reka'
+2024-07-02 00:12:46.573 | WARNING  | lmms_eval.models.reka:<module>:30 - Error importing reka: No module named 'reka'
+2024-07-02 00:12:46.574 | WARNING  | lmms_eval.models.reka:<module>:30 - Error importing reka: No module named 'reka'
+2024-07-02 00:12:46.605 | WARNING  | lmms_eval.models.mplug_owl_video.modeling_mplug_owl:<module>:27 - Error importing flash_attn in mplug_owl. Please install flash-attn first.
+2024-07-02 00:12:46.605 | WARNING  | lmms_eval.models.mplug_owl_video.modeling_mplug_owl:<module>:27 - Error importing flash_attn in mplug_owl. Please install flash-attn first.
+2024-07-02 00:12:46.605 | WARNING  | lmms_eval.models.mplug_owl_video.modeling_mplug_owl:<module>:27 - Error importing flash_attn in mplug_owl. Please install flash-attn first.
+2024-07-02 00:12:46.605 | WARNING  | lmms_eval.models.mplug_owl_video.modeling_mplug_owl:<module>:27 - Error importing flash_attn in mplug_owl. Please install flash-attn first.
+2024-07-02 00:12:46.606 | WARNING  | lmms_eval.models.mplug_owl_video.modeling_mplug_owl:<module>:27 - Error importing flash_attn in mplug_owl. Please install flash-attn first.
+2024-07-02 00:12:46.606 | WARNING  | lmms_eval.models.mplug_owl_video.modeling_mplug_owl:<module>:27 - Error importing flash_attn in mplug_owl. Please install flash-attn first.
+2024-07-02 00:12:46.606 | WARNING  | lmms_eval.models.mplug_owl_video.modeling_mplug_owl:<module>:27 - Error importing flash_attn in mplug_owl. Please install flash-attn first.
+2024-07-02 00:12:46.606 | WARNING  | lmms_eval.models.mplug_owl_video.modeling_mplug_owl:<module>:27 - Error importing flash_attn in mplug_owl. Please install flash-attn first.
+[32m2024-07-02 00:12:50.362[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate[0m:[36m169[0m - [1mVerbosity set to INFO[0m
+2024-07-02 00:12:50.362 | INFO     | __main__:cli_evaluate:169 - Verbosity set to INFO
+[32m2024-07-02 00:12:50.362[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate[0m:[36m169[0m - [1mVerbosity set to INFO[0m
+2024-07-02 00:12:50.362 | INFO     | __main__:cli_evaluate:169 - Verbosity set to INFO
+[32m2024-07-02 00:12:50.362[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate[0m:[36m169[0m - [1mVerbosity set to INFO[0m
+[32m2024-07-02 00:12:50.362[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate[0m:[36m169[0m - [1mVerbosity set to INFO[0m
+2024-07-02 00:12:50.362 | INFO     | __main__:cli_evaluate:169 - Verbosity set to INFO
+2024-07-02 00:12:50.362 | INFO     | __main__:cli_evaluate:169 - Verbosity set to INFO
+[32m2024-07-02 00:12:50.362[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate[0m:[36m169[0m - [1mVerbosity set to INFO[0m
+2024-07-02 00:12:50.362 | INFO     | __main__:cli_evaluate:169 - Verbosity set to INFO
+[32m2024-07-02 00:12:50.363[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate[0m:[36m169[0m - [1mVerbosity set to INFO[0m
+2024-07-02 00:12:50.363 | INFO     | __main__:cli_evaluate:169 - Verbosity set to INFO
+[32m2024-07-02 00:12:50.565[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate[0m:[36m169[0m - [1mVerbosity set to INFO[0m
+2024-07-02 00:12:50.565 | INFO     | __main__:cli_evaluate:169 - Verbosity set to INFO
+[32m2024-07-02 00:12:50.566[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate[0m:[36m169[0m - [1mVerbosity set to INFO[0m
+2024-07-02 00:12:50.566 | INFO     | __main__:cli_evaluate:169 - Verbosity set to INFO
+Warming up PyWSD (takes ~10 secs)... Warming up PyWSD (takes ~10 secs)... Warming up PyWSD (takes ~10 secs)... Warming up PyWSD (takes ~10 secs)... Warming up PyWSD (takes ~10 secs)... Warming up PyWSD (takes ~10 secs)... Warming up PyWSD (takes ~10 secs)... Warming up PyWSD (takes ~10 secs)... took 6.584751129150391 secs.
+took 6.723924160003662 secs.took 6.414824962615967 secs.
+
+took 6.561682224273682 secs.
+took 6.344949007034302 secs.
+took 6.680862903594971 secs.
+took 6.817979097366333 secs.
+took 6.8155975341796875 secs.
+[32m2024-07-02 00:13:10.445[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m270[0m - [1mEvaluating on 1 tasks.[0m
+2024-07-02 00:13:10.445 | INFO     | __main__:cli_evaluate_single:270 - Evaluating on 1 tasks.
+[32m2024-07-02 00:13:10.445[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m281[0m - [1mSelected Tasks: ['vatex_test'][0m
+2024-07-02 00:13:10.445 | INFO     | __main__:cli_evaluate_single:281 - Selected Tasks: ['vatex_test']
+[32m2024-07-02 00:13:10.446[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m270[0m - [1mEvaluating on 1 tasks.[0m
+[32m2024-07-02 00:13:10.446[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m270[0m - [1mEvaluating on 1 tasks.[0m
+[32m2024-07-02 00:13:10.446[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m270[0m - [1mEvaluating on 1 tasks.[0m
+2024-07-02 00:13:10.446 | INFO     | __main__:cli_evaluate_single:270 - Evaluating on 1 tasks.
+2024-07-02 00:13:10.446 | INFO     | __main__:cli_evaluate_single:270 - Evaluating on 1 tasks.
+[32m2024-07-02 00:13:10.446[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m270[0m - [1mEvaluating on 1 tasks.[0m
+2024-07-02 00:13:10.446 | INFO     | __main__:cli_evaluate_single:270 - Evaluating on 1 tasks.
+2024-07-02 00:13:10.446 | INFO     | __main__:cli_evaluate_single:270 - Evaluating on 1 tasks.
+[32m2024-07-02 00:13:10.446[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m281[0m - [1mSelected Tasks: ['vatex_test'][0m
+[32m2024-07-02 00:13:10.446[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m281[0m - [1mSelected Tasks: ['vatex_test'][0m
+[32m2024-07-02 00:13:10.446[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m270[0m - [1mEvaluating on 1 tasks.[0m
+2024-07-02 00:13:10.446 | INFO     | __main__:cli_evaluate_single:281 - Selected Tasks: ['vatex_test']
+2024-07-02 00:13:10.446 | INFO     | __main__:cli_evaluate_single:281 - Selected Tasks: ['vatex_test']
+[32m2024-07-02 00:13:10.446[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m281[0m - [1mSelected Tasks: ['vatex_test'][0m
+[32m2024-07-02 00:13:10.446[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m281[0m - [1mSelected Tasks: ['vatex_test'][0m
+2024-07-02 00:13:10.446 | INFO     | __main__:cli_evaluate_single:281 - Selected Tasks: ['vatex_test']
+2024-07-02 00:13:10.446 | INFO     | __main__:cli_evaluate_single:270 - Evaluating on 1 tasks.
+2024-07-02 00:13:10.446 | INFO     | __main__:cli_evaluate_single:281 - Selected Tasks: ['vatex_test']
+[32m2024-07-02 00:13:10.446[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m270[0m - [1mEvaluating on 1 tasks.[0m
+[32m2024-07-02 00:13:10.446[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m281[0m - [1mSelected Tasks: ['vatex_test'][0m
+2024-07-02 00:13:10.446 | INFO     | __main__:cli_evaluate_single:270 - Evaluating on 1 tasks.
+2024-07-02 00:13:10.446 | INFO     | __main__:cli_evaluate_single:281 - Selected Tasks: ['vatex_test']
+[32m2024-07-02 00:13:10.446[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m281[0m - [1mSelected Tasks: ['vatex_test'][0m
+2024-07-02 00:13:10.446 | INFO     | __main__:cli_evaluate_single:281 - Selected Tasks: ['vatex_test']
+[32m2024-07-02 00:13:10.446[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m270[0m - [1mEvaluating on 1 tasks.[0m
+2024-07-02 00:13:10.446 | INFO     | __main__:cli_evaluate_single:270 - Evaluating on 1 tasks.
+[32m2024-07-02 00:13:10.446[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m281[0m - [1mSelected Tasks: ['vatex_test'][0m
+2024-07-02 00:13:10.446 | INFO     | __main__:cli_evaluate_single:281 - Selected Tasks: ['vatex_test']
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/api/registry.py", line 29, in get_model
+    return MODEL_REGISTRY[model_name]
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/api/registry.py", line 29, in get_model
+    return MODEL_REGISTRY[model_name]
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/api/registry.py", line 29, in get_model
+    return MODEL_REGISTRY[model_name]
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/api/registry.py", line 29, in get_model
+    return MODEL_REGISTRY[model_name]
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/api/registry.py", line 29, in get_model
+    return MODEL_REGISTRY[model_name]
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/api/registry.py", line 29, in get_model
+    return MODEL_REGISTRY[model_name]
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/api/registry.py", line 29, in get_model
+    return MODEL_REGISTRY[model_name]
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/api/registry.py", line 29, in get_model
+    return MODEL_REGISTRY[model_name]
+KeyError: 'video_llava'
+KeyError: 'video_llava'
+KeyError: 'video_llava'
+KeyError: 'video_llava'
+KeyError: 'video_llava'
+KeyError: 'video_llava'
+KeyError: 'video_llava'
+KeyError: 'video_llava'
+
+During handling of the above exception, another exception occurred:
+
+
+During handling of the above exception, another exception occurred:
+
+
+During handling of the above exception, another exception occurred:
+
+
+During handling of the above exception, another exception occurred:
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+
+During handling of the above exception, another exception occurred:
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/__main__.py", line 203, in cli_evaluate
+    results, samples = cli_evaluate_single(args)
+Traceback (most recent call last):
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/__main__.py", line 203, in cli_evaluate
+    results, samples = cli_evaluate_single(args)
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/__main__.py", line 203, in cli_evaluate
+    results, samples = cli_evaluate_single(args)
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/__main__.py", line 203, in cli_evaluate
+    results, samples = cli_evaluate_single(args)
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/__main__.py", line 299, in cli_evaluate_single
+    results = evaluator.simple_evaluate(
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/__main__.py", line 203, in cli_evaluate
+    results, samples = cli_evaluate_single(args)
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/__main__.py", line 203, in cli_evaluate
+    results, samples = cli_evaluate_single(args)
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/utils.py", line 425, in _wrapper
+    return fn(*args, **kwargs)
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/__main__.py", line 203, in cli_evaluate
+    results, samples = cli_evaluate_single(args)
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/__main__.py", line 299, in cli_evaluate_single
+    results = evaluator.simple_evaluate(
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/__main__.py", line 203, in cli_evaluate
+    results, samples = cli_evaluate_single(args)
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/__main__.py", line 299, in cli_evaluate_single
+    results = evaluator.simple_evaluate(
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/__main__.py", line 299, in cli_evaluate_single
+    results = evaluator.simple_evaluate(
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/__main__.py", line 299, in cli_evaluate_single
+    results = evaluator.simple_evaluate(
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/evaluator.py", line 94, in simple_evaluate
+    lm = lmms_eval.api.registry.get_model(model).create_from_arg_string(
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/__main__.py", line 299, in cli_evaluate_single
+    results = evaluator.simple_evaluate(
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/utils.py", line 425, in _wrapper
+    return fn(*args, **kwargs)
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/utils.py", line 425, in _wrapper
+    return fn(*args, **kwargs)
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/__main__.py", line 299, in cli_evaluate_single
+    results = evaluator.simple_evaluate(
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/__main__.py", line 299, in cli_evaluate_single
+    results = evaluator.simple_evaluate(
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/evaluator.py", line 94, in simple_evaluate
+    lm = lmms_eval.api.registry.get_model(model).create_from_arg_string(
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/utils.py", line 425, in _wrapper
+    return fn(*args, **kwargs)
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/utils.py", line 425, in _wrapper
+    return fn(*args, **kwargs)
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/api/registry.py", line 31, in get_model
+    raise ValueError(f"Attempted to load model '{model_name}', but no model for this name found! Supported model names: {', '.join(MODEL_REGISTRY.keys())}")
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/utils.py", line 425, in _wrapper
+    return fn(*args, **kwargs)
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/evaluator.py", line 94, in simple_evaluate
+    lm = lmms_eval.api.registry.get_model(model).create_from_arg_string(
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/utils.py", line 425, in _wrapper
+    return fn(*args, **kwargs)
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/utils.py", line 425, in _wrapper
+    return fn(*args, **kwargs)
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/evaluator.py", line 94, in simple_evaluate
+    lm = lmms_eval.api.registry.get_model(model).create_from_arg_string(
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/api/registry.py", line 31, in get_model
+    raise ValueError(f"Attempted to load model '{model_name}', but no model for this name found! Supported model names: {', '.join(MODEL_REGISTRY.keys())}")
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/api/registry.py", line 31, in get_model
+    raise ValueError(f"Attempted to load model '{model_name}', but no model for this name found! Supported model names: {', '.join(MODEL_REGISTRY.keys())}")
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/evaluator.py", line 94, in simple_evaluate
+    lm = lmms_eval.api.registry.get_model(model).create_from_arg_string(
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/evaluator.py", line 94, in simple_evaluate
+    lm = lmms_eval.api.registry.get_model(model).create_from_arg_string(
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/api/registry.py", line 31, in get_model
+    raise ValueError(f"Attempted to load model '{model_name}', but no model for this name found! Supported model names: {', '.join(MODEL_REGISTRY.keys())}")
+ValueError: Attempted to load model 'video_llava', but no model for this name found! Supported model names: llava, qwen_vl, fuyu, batch_gpt4, gpt4v, instructblip, minicpm_v, xcomposer2_4khd, claude, qwen-vl-api, llava_sglang, idefics2, internvl, gemini_api, reka, from_log, phi3v, tinyllava, llava_hf
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/evaluator.py", line 94, in simple_evaluate
+    lm = lmms_eval.api.registry.get_model(model).create_from_arg_string(
+ValueError: Attempted to load model 'video_llava', but no model for this name found! Supported model names: llava, qwen_vl, fuyu, batch_gpt4, gpt4v, instructblip, minicpm_v, xcomposer2_4khd, claude, qwen-vl-api, llava_sglang, idefics2, internvl, gemini_api, reka, from_log, phi3v, tinyllava, llava_hf
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/evaluator.py", line 94, in simple_evaluate
+    lm = lmms_eval.api.registry.get_model(model).create_from_arg_string(
+ValueError: Attempted to load model 'video_llava', but no model for this name found! Supported model names: llava, qwen_vl, fuyu, batch_gpt4, gpt4v, instructblip, minicpm_v, xcomposer2_4khd, claude, qwen-vl-api, llava_sglang, idefics2, internvl, gemini_api, reka, from_log, phi3v, tinyllava, llava_hf
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/api/registry.py", line 31, in get_model
+    raise ValueError(f"Attempted to load model '{model_name}', but no model for this name found! Supported model names: {', '.join(MODEL_REGISTRY.keys())}")
+ValueError: Attempted to load model 'video_llava', but no model for this name found! Supported model names: llava, qwen_vl, fuyu, batch_gpt4, gpt4v, instructblip, minicpm_v, xcomposer2_4khd, claude, qwen-vl-api, llava_sglang, idefics2, internvl, gemini_api, reka, from_log, phi3v, tinyllava, llava_hf
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/api/registry.py", line 31, in get_model
+    raise ValueError(f"Attempted to load model '{model_name}', but no model for this name found! Supported model names: {', '.join(MODEL_REGISTRY.keys())}")
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/api/registry.py", line 31, in get_model
+    raise ValueError(f"Attempted to load model '{model_name}', but no model for this name found! Supported model names: {', '.join(MODEL_REGISTRY.keys())}")
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/api/registry.py", line 31, in get_model
+    raise ValueError(f"Attempted to load model '{model_name}', but no model for this name found! Supported model names: {', '.join(MODEL_REGISTRY.keys())}")
+ValueError: Attempted to load model 'video_llava', but no model for this name found! Supported model names: llava, qwen_vl, fuyu, batch_gpt4, gpt4v, instructblip, minicpm_v, xcomposer2_4khd, claude, qwen-vl-api, llava_sglang, idefics2, internvl, gemini_api, reka, from_log, phi3v, tinyllava, llava_hf
+ValueError: Attempted to load model 'video_llava', but no model for this name found! Supported model names: llava, qwen_vl, fuyu, batch_gpt4, gpt4v, instructblip, minicpm_v, xcomposer2_4khd, claude, qwen-vl-api, llava_sglang, idefics2, internvl, gemini_api, reka, from_log, phi3v, tinyllava, llava_hf
+ValueError: Attempted to load model 'video_llava', but no model for this name found! Supported model names: llava, qwen_vl, fuyu, batch_gpt4, gpt4v, instructblip, minicpm_v, xcomposer2_4khd, claude, qwen-vl-api, llava_sglang, idefics2, internvl, gemini_api, reka, from_log, phi3v, tinyllava, llava_hf
+ValueError: Attempted to load model 'video_llava', but no model for this name found! Supported model names: llava, qwen_vl, fuyu, batch_gpt4, gpt4v, instructblip, minicpm_v, xcomposer2_4khd, claude, qwen-vl-api, llava_sglang, idefics2, internvl, gemini_api, reka, from_log, phi3v, tinyllava, llava_hf
+[32m2024-07-02 00:13:11.894[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36mcli_evaluate[0m:[36m217[0m - [31m[1mError during evaluation: Attempted to load model 'video_llava', but no model for this name found! Supported model names: llava, qwen_vl, fuyu, batch_gpt4, gpt4v, instructblip, minicpm_v, xcomposer2_4khd, claude, qwen-vl-api, llava_sglang, idefics2, internvl, gemini_api, reka, from_log, phi3v, tinyllava, llava_hf[0m
+[32m2024-07-02 00:13:11.894[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36mcli_evaluate[0m:[36m217[0m - [31m[1mError during evaluation: Attempted to load model 'video_llava', but no model for this name found! Supported model names: llava, qwen_vl, fuyu, batch_gpt4, gpt4v, instructblip, minicpm_v, xcomposer2_4khd, claude, qwen-vl-api, llava_sglang, idefics2, internvl, gemini_api, reka, from_log, phi3v, tinyllava, llava_hf[0m
+[32m2024-07-02 00:13:11.894[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36mcli_evaluate[0m:[36m217[0m - [31m[1mError during evaluation: Attempted to load model 'video_llava', but no model for this name found! Supported model names: llava, qwen_vl, fuyu, batch_gpt4, gpt4v, instructblip, minicpm_v, xcomposer2_4khd, claude, qwen-vl-api, llava_sglang, idefics2, internvl, gemini_api, reka, from_log, phi3v, tinyllava, llava_hf[0m
+[32m2024-07-02 00:13:11.894[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36mcli_evaluate[0m:[36m217[0m - [31m[1mError during evaluation: Attempted to load model 'video_llava', but no model for this name found! Supported model names: llava, qwen_vl, fuyu, batch_gpt4, gpt4v, instructblip, minicpm_v, xcomposer2_4khd, claude, qwen-vl-api, llava_sglang, idefics2, internvl, gemini_api, reka, from_log, phi3v, tinyllava, llava_hf[0m
+2024-07-02 00:13:11.894 | ERROR    | __main__:cli_evaluate:217 - Error during evaluation: Attempted to load model 'video_llava', but no model for this name found! Supported model names: llava, qwen_vl, fuyu, batch_gpt4, gpt4v, instructblip, minicpm_v, xcomposer2_4khd, claude, qwen-vl-api, llava_sglang, idefics2, internvl, gemini_api, reka, from_log, phi3v, tinyllava, llava_hf
+[32m2024-07-02 00:13:11.894[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36mcli_evaluate[0m:[36m217[0m - [31m[1mError during evaluation: Attempted to load model 'video_llava', but no model for this name found! Supported model names: llava, qwen_vl, fuyu, batch_gpt4, gpt4v, instructblip, minicpm_v, xcomposer2_4khd, claude, qwen-vl-api, llava_sglang, idefics2, internvl, gemini_api, reka, from_log, phi3v, tinyllava, llava_hf[0m
+2024-07-02 00:13:11.894 | ERROR    | __main__:cli_evaluate:217 - Error during evaluation: Attempted to load model 'video_llava', but no model for this name found! Supported model names: llava, qwen_vl, fuyu, batch_gpt4, gpt4v, instructblip, minicpm_v, xcomposer2_4khd, claude, qwen-vl-api, llava_sglang, idefics2, internvl, gemini_api, reka, from_log, phi3v, tinyllava, llava_hf
+[32m2024-07-02 00:13:11.894[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36mcli_evaluate[0m:[36m217[0m - [31m[1mError during evaluation: Attempted to load model 'video_llava', but no model for this name found! Supported model names: llava, qwen_vl, fuyu, batch_gpt4, gpt4v, instructblip, minicpm_v, xcomposer2_4khd, claude, qwen-vl-api, llava_sglang, idefics2, internvl, gemini_api, reka, from_log, phi3v, tinyllava, llava_hf[0m
+2024-07-02 00:13:11.894 | ERROR    | __main__:cli_evaluate:217 - Error during evaluation: Attempted to load model 'video_llava', but no model for this name found! Supported model names: llava, qwen_vl, fuyu, batch_gpt4, gpt4v, instructblip, minicpm_v, xcomposer2_4khd, claude, qwen-vl-api, llava_sglang, idefics2, internvl, gemini_api, reka, from_log, phi3v, tinyllava, llava_hf
+2024-07-02 00:13:11.894 | ERROR    | __main__:cli_evaluate:217 - Error during evaluation: Attempted to load model 'video_llava', but no model for this name found! Supported model names: llava, qwen_vl, fuyu, batch_gpt4, gpt4v, instructblip, minicpm_v, xcomposer2_4khd, claude, qwen-vl-api, llava_sglang, idefics2, internvl, gemini_api, reka, from_log, phi3v, tinyllava, llava_hf
+[32m2024-07-02 00:13:11.894[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36mcli_evaluate[0m:[36m217[0m - [31m[1mError during evaluation: Attempted to load model 'video_llava', but no model for this name found! Supported model names: llava, qwen_vl, fuyu, batch_gpt4, gpt4v, instructblip, minicpm_v, xcomposer2_4khd, claude, qwen-vl-api, llava_sglang, idefics2, internvl, gemini_api, reka, from_log, phi3v, tinyllava, llava_hf[0m
+2024-07-02 00:13:11.894 | ERROR    | __main__:cli_evaluate:217 - Error during evaluation: Attempted to load model 'video_llava', but no model for this name found! Supported model names: llava, qwen_vl, fuyu, batch_gpt4, gpt4v, instructblip, minicpm_v, xcomposer2_4khd, claude, qwen-vl-api, llava_sglang, idefics2, internvl, gemini_api, reka, from_log, phi3v, tinyllava, llava_hf
+[32m2024-07-02 00:13:11.894[0m | [31m[1mERROR   [0m | [36m__main__[0m:[36mcli_evaluate[0m:[36m217[0m - [31m[1mError during evaluation: Attempted to load model 'video_llava', but no model for this name found! Supported model names: llava, qwen_vl, fuyu, batch_gpt4, gpt4v, instructblip, minicpm_v, xcomposer2_4khd, claude, qwen-vl-api, llava_sglang, idefics2, internvl, gemini_api, reka, from_log, phi3v, tinyllava, llava_hf[0m
+Traceback (most recent call last):
+2024-07-02 00:13:11.894 | ERROR    | __main__:cli_evaluate:217 - Error during evaluation: Attempted to load model 'video_llava', but no model for this name found! Supported model names: llava, qwen_vl, fuyu, batch_gpt4, gpt4v, instructblip, minicpm_v, xcomposer2_4khd, claude, qwen-vl-api, llava_sglang, idefics2, internvl, gemini_api, reka, from_log, phi3v, tinyllava, llava_hf
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/api/registry.py", line 29, in get_model
+    return MODEL_REGISTRY[model_name]
+Traceback (most recent call last):
+KeyError: 'video_llava'
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/api/registry.py", line 29, in get_model
+    return MODEL_REGISTRY[model_name]
+
+During handling of the above exception, another exception occurred:
+
+2024-07-02 00:13:11.894 | ERROR    | __main__:cli_evaluate:217 - Error during evaluation: Attempted to load model 'video_llava', but no model for this name found! Supported model names: llava, qwen_vl, fuyu, batch_gpt4, gpt4v, instructblip, minicpm_v, xcomposer2_4khd, claude, qwen-vl-api, llava_sglang, idefics2, internvl, gemini_api, reka, from_log, phi3v, tinyllava, llava_hf
+Traceback (most recent call last):
+2024-07-02 00:13:11.894 | ERROR    | __main__:cli_evaluate:217 - Error during evaluation: Attempted to load model 'video_llava', but no model for this name found! Supported model names: llava, qwen_vl, fuyu, batch_gpt4, gpt4v, instructblip, minicpm_v, xcomposer2_4khd, claude, qwen-vl-api, llava_sglang, idefics2, internvl, gemini_api, reka, from_log, phi3v, tinyllava, llava_hf
+KeyError: 'video_llava'
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/api/registry.py", line 29, in get_model
+    return MODEL_REGISTRY[model_name]
+
+During handling of the above exception, another exception occurred:
+
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/api/registry.py", line 29, in get_model
+    return MODEL_REGISTRY[model_name]
+KeyError: 'video_llava'
+Traceback (most recent call last):
+Traceback (most recent call last):
+KeyError: 'video_llava'
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/api/registry.py", line 29, in get_model
+    return MODEL_REGISTRY[model_name]
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/__main__.py", line 203, in cli_evaluate
+    results, samples = cli_evaluate_single(args)
+
+During handling of the above exception, another exception occurred:
+
+
+During handling of the above exception, another exception occurred:
+
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/__main__.py", line 299, in cli_evaluate_single
+    results = evaluator.simple_evaluate(
+Traceback (most recent call last):
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/api/registry.py", line 29, in get_model
+    return MODEL_REGISTRY[model_name]
+KeyError: 'video_llava'
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/__main__.py", line 203, in cli_evaluate
+    results, samples = cli_evaluate_single(args)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/utils.py", line 425, in _wrapper
+    return fn(*args, **kwargs)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+KeyError: 'video_llava'
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/__main__.py", line 299, in cli_evaluate_single
+    results = evaluator.simple_evaluate(
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/__main__.py", line 203, in cli_evaluate
+    results, samples = cli_evaluate_single(args)
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/evaluator.py", line 94, in simple_evaluate
+    lm = lmms_eval.api.registry.get_model(model).create_from_arg_string(
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/api/registry.py", line 29, in get_model
+    return MODEL_REGISTRY[model_name]
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/api/registry.py", line 29, in get_model
+    return MODEL_REGISTRY[model_name]
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/__main__.py", line 203, in cli_evaluate
+    results, samples = cli_evaluate_single(args)
+Traceback (most recent call last):
+
+During handling of the above exception, another exception occurred:
+
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/utils.py", line 425, in _wrapper
+    return fn(*args, **kwargs)
+KeyError: 'video_llava'
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/__main__.py", line 299, in cli_evaluate_single
+    results = evaluator.simple_evaluate(
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/__main__.py", line 203, in cli_evaluate
+    results, samples = cli_evaluate_single(args)
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/api/registry.py", line 31, in get_model
+    raise ValueError(f"Attempted to load model '{model_name}', but no model for this name found! Supported model names: {', '.join(MODEL_REGISTRY.keys())}")
+KeyError: 'video_llava'
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/__main__.py", line 299, in cli_evaluate_single
+    results = evaluator.simple_evaluate(
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/evaluator.py", line 94, in simple_evaluate
+    lm = lmms_eval.api.registry.get_model(model).create_from_arg_string(
+Traceback (most recent call last):
+ValueError: Attempted to load model 'video_llava', but no model for this name found! Supported model names: llava, qwen_vl, fuyu, batch_gpt4, gpt4v, instructblip, minicpm_v, xcomposer2_4khd, claude, qwen-vl-api, llava_sglang, idefics2, internvl, gemini_api, reka, from_log, phi3v, tinyllava, llava_hf
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/utils.py", line 425, in _wrapper
+    return fn(*args, **kwargs)
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/__main__.py", line 299, in cli_evaluate_single
+    results = evaluator.simple_evaluate(
+
+During handling of the above exception, another exception occurred:
+
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/utils.py", line 425, in _wrapper
+    return fn(*args, **kwargs)
+
+During handling of the above exception, another exception occurred:
+
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/api/registry.py", line 31, in get_model
+    raise ValueError(f"Attempted to load model '{model_name}', but no model for this name found! Supported model names: {', '.join(MODEL_REGISTRY.keys())}")
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/utils.py", line 425, in _wrapper
+    return fn(*args, **kwargs)
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/__main__.py", line 203, in cli_evaluate
+    results, samples = cli_evaluate_single(args)
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/evaluator.py", line 94, in simple_evaluate
+    lm = lmms_eval.api.registry.get_model(model).create_from_arg_string(
+ValueError: Attempted to load model 'video_llava', but no model for this name found! Supported model names: llava, qwen_vl, fuyu, batch_gpt4, gpt4v, instructblip, minicpm_v, xcomposer2_4khd, claude, qwen-vl-api, llava_sglang, idefics2, internvl, gemini_api, reka, from_log, phi3v, tinyllava, llava_hf
+Traceback (most recent call last):
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/evaluator.py", line 94, in simple_evaluate
+    lm = lmms_eval.api.registry.get_model(model).create_from_arg_string(
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/evaluator.py", line 94, in simple_evaluate
+    lm = lmms_eval.api.registry.get_model(model).create_from_arg_string(
+Traceback (most recent call last):
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/__main__.py", line 299, in cli_evaluate_single
+    results = evaluator.simple_evaluate(
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/api/registry.py", line 31, in get_model
+    raise ValueError(f"Attempted to load model '{model_name}', but no model for this name found! Supported model names: {', '.join(MODEL_REGISTRY.keys())}")
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/api/registry.py", line 31, in get_model
+    raise ValueError(f"Attempted to load model '{model_name}', but no model for this name found! Supported model names: {', '.join(MODEL_REGISTRY.keys())}")
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/api/registry.py", line 31, in get_model
+    raise ValueError(f"Attempted to load model '{model_name}', but no model for this name found! Supported model names: {', '.join(MODEL_REGISTRY.keys())}")
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/__main__.py", line 203, in cli_evaluate
+    results, samples = cli_evaluate_single(args)
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/__main__.py", line 203, in cli_evaluate
+    results, samples = cli_evaluate_single(args)
+ValueError: Attempted to load model 'video_llava', but no model for this name found! Supported model names: llava, qwen_vl, fuyu, batch_gpt4, gpt4v, instructblip, minicpm_v, xcomposer2_4khd, claude, qwen-vl-api, llava_sglang, idefics2, internvl, gemini_api, reka, from_log, phi3v, tinyllava, llava_hf
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/utils.py", line 425, in _wrapper
+    return fn(*args, **kwargs)
+ValueError: Attempted to load model 'video_llava', but no model for this name found! Supported model names: llava, qwen_vl, fuyu, batch_gpt4, gpt4v, instructblip, minicpm_v, xcomposer2_4khd, claude, qwen-vl-api, llava_sglang, idefics2, internvl, gemini_api, reka, from_log, phi3v, tinyllava, llava_hf
+ValueError: Attempted to load model 'video_llava', but no model for this name found! Supported model names: llava, qwen_vl, fuyu, batch_gpt4, gpt4v, instructblip, minicpm_v, xcomposer2_4khd, claude, qwen-vl-api, llava_sglang, idefics2, internvl, gemini_api, reka, from_log, phi3v, tinyllava, llava_hf
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/__main__.py", line 299, in cli_evaluate_single
+    results = evaluator.simple_evaluate(
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/__main__.py", line 299, in cli_evaluate_single
+    results = evaluator.simple_evaluate(
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/evaluator.py", line 94, in simple_evaluate
+    lm = lmms_eval.api.registry.get_model(model).create_from_arg_string(
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/utils.py", line 425, in _wrapper
+    return fn(*args, **kwargs)
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/utils.py", line 425, in _wrapper
+    return fn(*args, **kwargs)
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/api/registry.py", line 31, in get_model
+    raise ValueError(f"Attempted to load model '{model_name}', but no model for this name found! Supported model names: {', '.join(MODEL_REGISTRY.keys())}")
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/evaluator.py", line 94, in simple_evaluate
+    lm = lmms_eval.api.registry.get_model(model).create_from_arg_string(
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/evaluator.py", line 94, in simple_evaluate
+    lm = lmms_eval.api.registry.get_model(model).create_from_arg_string(
+ValueError: Attempted to load model 'video_llava', but no model for this name found! Supported model names: llava, qwen_vl, fuyu, batch_gpt4, gpt4v, instructblip, minicpm_v, xcomposer2_4khd, claude, qwen-vl-api, llava_sglang, idefics2, internvl, gemini_api, reka, from_log, phi3v, tinyllava, llava_hf
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/api/registry.py", line 31, in get_model
+    raise ValueError(f"Attempted to load model '{model_name}', but no model for this name found! Supported model names: {', '.join(MODEL_REGISTRY.keys())}")
+  File "/fss/wenhao/projects/lmms-eval/lmms_eval/api/registry.py", line 31, in get_model
+    raise ValueError(f"Attempted to load model '{model_name}', but no model for this name found! Supported model names: {', '.join(MODEL_REGISTRY.keys())}")
+ValueError: Attempted to load model 'video_llava', but no model for this name found! Supported model names: llava, qwen_vl, fuyu, batch_gpt4, gpt4v, instructblip, minicpm_v, xcomposer2_4khd, claude, qwen-vl-api, llava_sglang, idefics2, internvl, gemini_api, reka, from_log, phi3v, tinyllava, llava_hf
+ValueError: Attempted to load model 'video_llava', but no model for this name found! Supported model names: llava, qwen_vl, fuyu, batch_gpt4, gpt4v, instructblip, minicpm_v, xcomposer2_4khd, claude, qwen-vl-api, llava_sglang, idefics2, internvl, gemini_api, reka, from_log, phi3v, tinyllava, llava_hf
+Job finished at: Tue Jul  2 00:13:16 UTC 2024

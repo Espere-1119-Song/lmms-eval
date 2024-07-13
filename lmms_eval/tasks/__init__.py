@@ -138,10 +138,10 @@ def get_task_name_from_object(task_object):
 # TODO: pass num_fewshot and other cmdline overrides in a better way
 def get_task_dict(task_name_list: List[Union[str, Dict, Task]], model_name: str):
     all_task_dict = {}
-
     # Ensure task_name_list is a list to simplify processing
     if not isinstance(task_name_list, list):
-        task_name_list = [task_name_list]
+        # task_name_list = [task_name_list] # defined by lmms-eval
+        task_name_list = list(task_name_list)
 
     for task_element in task_name_list:
         if isinstance(task_element, str) and task_element in GROUP_REGISTRY:

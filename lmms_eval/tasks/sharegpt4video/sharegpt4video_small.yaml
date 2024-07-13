@@ -1,0 +1,42 @@
+dataset_path: /data/wenhao/projects/lmms-eval/data/ShareGPT4Video/test_zip
+dataset_name: ShareGPT4Video
+task: sharegpt4video_small
+test_split: test
+output_type: generate_until
+doc_to_visual: !function utils.sharegpt4video_test_doc_to_visual
+doc_to_text: !function utils.sharegpt4video_test_doc_to_text
+doc_to_target: "answer"
+
+process_results: !function utils.sharegpt4video_process_result
+# Note that the metric name can be either a registed metric function (such as the case for GQA) or a key name returned by process_results
+metric_list:
+  - metric: sharegpt4video_Bleu_4
+    aggregation: !function utils.sharegpt4video_bleu4
+    higher_is_better: true
+  - metric: sharegpt4video_METEOR
+    aggregation: !function utils.sharegpt4video_meteor
+    higher_is_better: true
+  - metric: sharegpt4video_ROUGE_L
+    aggregation: !function utils.sharegpt4video_rougel
+    higher_is_better: true
+  - metric: sharegpt4video_CIDEr
+    aggregation: !function utils.sharegpt4video_cider
+    higher_is_better: true
+metadata:
+  version: 0.0
+
+model_specific_prompt_kwargs:
+  default:
+    prompt: Provide a brief single-sentence caption for the last video below. Do not give any reasoning, just the caption. You must follow the captioning style of the preceding videos. Do not start your response with "Output:", just provide the caption.
+
+dataset_kwargs:
+  token: True
+  video: True #skip download video from hf
+  cache_dir: sharegpt4video_small
+
+generation_kwargs:
+  max_new_tokens: 1024
+  temperature: 0
+  top_p: 1.0
+  num_beams: 1
+  do_sample: false

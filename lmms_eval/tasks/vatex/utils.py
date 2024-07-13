@@ -26,6 +26,7 @@ VATEX_METRICS = ["Bleu_4", "Bleu_3", "Bleu_2", "Bleu_1", "METEOR", "ROUGE_L", "C
 #     config = yaml.safe_load("".join(safe_data))
 
 hf_home = os.getenv("HF_HOME", "~/.cache/huggingface/")
+hf_home = os.path.expanduser(hf_home)
 # cache_dir = os.path.join(hf_home, cache_dir)
 # base_cache_dir = config["dataset_kwargs"]["cache_dir"]
 base_cache_dir = os.path.expanduser(hf_home)

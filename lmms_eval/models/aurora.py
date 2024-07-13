@@ -22,11 +22,11 @@ from transformers import VideoLlavaProcessor, VideoLlavaForConditionalGeneration
 from lmms_eval.models.model_utils.load_video import read_video_pyav
 
 
-@register_model("video_llava")
-class VideoLLaVA(lmms):
+@register_model("aurora")
+class Aurora(lmms):
     def __init__(
         self,
-        pretrained: str = "LanguageBind/Video-LLaVA-7B-hf",
+        pretrained: str = "Reself/aurora_dev_7b",
         truncation: Optional[bool] = True,
         device: Optional[str] = "cuda:0",
         dtype: Optional[Union[str, torch.dtype]] = "auto",
@@ -60,6 +60,8 @@ class VideoLLaVA(lmms):
         self._model = VideoLlavaForConditionalGeneration.from_pretrained(pretrained)
         self._processor = VideoLlavaProcessor.from_pretrained(pretrained)
         self.prompt = "USER: <video>{}? ASSISTANT:"
+
+        
         self.num_frames = num_frames
         assert num_frames == 8, "num_frames must be 8 https://github.com/huggingface/transformers/blob/bdb9106f247fca48a71eb384be25dbbd29b065a8/src/transformers/models/video_llava/modeling_video_llava.py#L379"
         # self.model_name = get_model_name_from_path(pretrained)
@@ -206,7 +208,6 @@ class VideoLLaVA(lmms):
             generate_ids = self.model.generate(**inputs, max_length=gen_kwargs["max_new_tokens"], temperature=gen_kwargs["temperature"])
 
             outputs = self._processor.batch_decode(generate_ids, skip_special_tokens=True, clean_up_tokenization_spaces=False)[0].split("ASSISTANT:")[-1].strip()
-            print(outputs)
             res.append(outputs)
             pbar.update(1)
         return res

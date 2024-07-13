@@ -1,0 +1,7 @@
+- model: video_llava
+  # model_args: pretrained=liuhaotian/llava-v1.5-7b
+  tasks: vatex_test
+  batch_size: 1
+  log_samples: false
+  log_samples_suffix: vatex_test
+  output_path: "./logs/"
