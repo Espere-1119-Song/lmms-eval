@@ -25,22 +25,6 @@ DEFAULT_IMAGE_TOKEN = "<|image|>"
 
 @register_model("llama_vision")
 class LlamaVision(lmms):
-    """
-    Llava Model for Hugging Face Transformers: https://huggingface.co/docs/transformers/v4.39.3/en/model_doc/llava
-
-    Adapted from the InstructBLIP model in lmms_eval/models/instructblip.py
-
-    Example usage:
-
-    accelerate launch --num_processes=8 --main_process_port 12345 -m lmms_eval \
-        --model llava_hf \
-        --model_args pretrained=llava-hf/llava-1.5-7b-hf \
-        --tasks seedbench \
-        --batch_size 1 \
-        --output_path ./logs/ \
-        --log_samples
-    """
-
     def __init__(
         self,
         pretrained: str = "meta-llama/Llama-3.2-11B-Vision",
@@ -96,12 +80,12 @@ class LlamaVision(lmms):
         elif accelerator.num_processes == 1 and device_map == "auto":
             eval_logger.info(f"Using {accelerator.num_processes} devices with pipeline parallelism")
             self._rank = 0
-            self._word_size = 1
+            self._world_size = 1
         else:
             eval_logger.info(f"Using single device: {self._device}")
             self.model.to(self._device)
             self._rank = 0
-            self._word_size = 1
+            self._world_size = 1
         self.accelerator = accelerator
 
     @property
@@ -201,9 +185,9 @@ class LlamaVision(lmms):
 
             for _ in range(len(images)):
                 messages[-1]["content"].append({"type": "image"})
-            messages[-1]["content"].append({"type": "text", "content": contexts})
+            messages[-1]["content"].append({"type": "text", "text": contexts})
             prompt = self.processor.apply_chat_template(messages, add_generation_prompt=True)
-            inputs = self.processor(images, prompt, return_tensors="pt").to(self.model.device)
+            inputs = self.processor(images, prompt, add_special_tokens=False, return_tensors="pt").to(self.model.device)
 
             if "max_new_tokens" not in gen_kwargs:
                 gen_kwargs["max_new_tokens"] = 1024
@@ -224,7 +208,7 @@ class LlamaVision(lmms):
                     do_sample=gen_kwargs["do_sample"],
                 )
                 output = output[:, inputs["input_ids"].shape[-1] :]
-                res.append(self.processor.decode(output[0]))
+                res.append(self.processor.decode(output[0], skip_special_tokens=True))
 
             pbar.update(1)
         pbar.close()
